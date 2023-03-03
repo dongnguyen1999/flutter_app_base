@@ -4,7 +4,7 @@ Flutter App Base
 
 Sample code base setup with:
  - Theming with light/dark mode
- - Routing config and sample navigation
+ - Splash screen, routing config and sample navigation
  - Config local storage for caching
  - Config http utils (base on dio) to call http request and response
 
