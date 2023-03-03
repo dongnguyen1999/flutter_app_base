@@ -1,16 +1,18 @@
 # app_base
 
-A new Flutter project.
+Flutter App Base
 
-## Getting Started
+Sample code base setup with:
+ - Theming with light/dark mode
+ - Routing config and sample navigation
+ - Config local storage for caching
+ - Config http utils (base on dio) to call http request and response
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Library list:
+ - <b>bloc</b>: lib for state management 
+ - <b>get_it</b>: lib for service locator - support create singleton services and dependency injection 
+ - <b>sizer</b>: lib support responsive & adaptive app 
+ - <b>dio</b>: lib for http request 
+ - <b>flutter_svg</b>: support render svg file
+ - <b>cached_network_image</b>: support load network images and cache network images
+ - <b>shared_preferences</b>: lib support local storage 
